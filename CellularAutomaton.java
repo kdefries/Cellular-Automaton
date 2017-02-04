@@ -18,7 +18,7 @@ public class CellularAutomaton
     for (int i = 0; i < thisGeneration.length; i++) 
     {
       int sum = (i - 1 < 0 ? 0 : lastGeneration[i-1]) + (lastGeneration[i]) + 
-        (i + 1 >= lastGeneration.length ? 0 : lastGeneration[i+1]);
+        (i + 1 >= lastGeneration.length ? 0 : lastGeneration[i + 1]);
       thisGeneration[i] = updateRule[sum];
     }
   }
