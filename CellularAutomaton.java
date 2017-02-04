@@ -6,12 +6,6 @@ public class CellularAutomaton
   
   private static void initializeGeneration(int[] generation) 
   {
-    
-    for (int i = 0; i < generation.length; i++) 
-    {
-      generation[i] = generation[i];
-    }
-    
     // for production
     for (int i = 0; i < generation.length; i++) 
     {
